@@ -2,7 +2,7 @@ import Color from "./Color";
 
 const ColorOptions = () => {
   return (
-    <section className="flex flex-col items-center gap-1">
+    <section className="flex flex-col items-center gap-1 self-center">
       <Color color="bg-[#434558]" />
       <div className=" border-dotted border-l-[2px] border-white  h-[22px]"></div>
       <Color color="bg-[#6ADDCC]" />
