@@ -3,7 +3,7 @@ import Image from "next/image";
 const Watch = ({ bgcolor, img, setSelectedWatch }) => {
   return (
     <button
-      className="grid grid-columns-subgrid col-span-full row-span-full"
+      className="grid grid-columns-subgrid col-span-full row-span-full hover:scale-x-110 hover:scale-y-110"
       onClick={() => {
         setSelectedWatch(img);
       }}
