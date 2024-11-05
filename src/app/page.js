@@ -3,6 +3,7 @@ import WatchOptions from "@/components/WatchOptions";
 import BuyNowButton from "@/components/BuyNowButton";
 
 import PageIndicator from "@/components/PageIndicator";
+import Accordion from "@/components/Acoordion";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
           <div className="grid gap-10">
             <h1 className="text-white text-[3.3rem] leading-tight">
               <strong>The Perfect Moment</strong> <br />
-              Between Past And Future.
+              Between Past And Future
             </h1>
             <BuyNowButton />
           </div>
@@ -23,6 +24,7 @@ export default function Home() {
           <PageIndicator />
         </div>
       </div>
+      <Accordion />
     </main>
   );
 }
